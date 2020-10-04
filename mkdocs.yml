@@ -1,7 +1,7 @@
 site_name: Matthew Murray
 site_author: Matthew Murray
 repo_name: 'GitHub'
-repo_url: ''
+repo_url: 'https://github.com/m24murray/site-docs'
 
 # Page navigation
 nav:
@@ -27,3 +27,7 @@ theme:
 
 plugins:
   - search
+
+markdown_extensions:
+  - attr_list
+  - admonition
