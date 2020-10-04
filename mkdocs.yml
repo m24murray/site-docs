@@ -2,6 +2,7 @@ site_name: Matthew Murray
 site_author: Matthew Murray
 repo_name: 'GitHub'
 repo_url: 'https://github.com/m24murray/site-docs'
+edit_uri: ''
 
 # Page navigation
 nav:
@@ -22,8 +23,6 @@ theme:
     code: "Ubuntu Mono"
   icon:
     logo:  fontawesome/solid/code
-#  feature:
-#    tabs: true
 
 plugins:
   - search
