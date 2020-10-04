@@ -1,0 +1,29 @@
+site_name: Matthew Murray
+site_author: Matthew Murray
+repo_name: 'GitHub'
+repo_url: ''
+
+# Page navigation
+nav:
+  - Home: index.md
+  - Projects:
+    - Raspberry Pi - Getting Started: projects/raspberry-pi/raspberry-pi-getting-started.md
+    - Raspberry Pi - Input & Output scripts: projects/raspberry-pi/raspberry-pi-io.md
+
+# Site theme configuration
+theme:
+  name: material
+  favicon: img/favicon.ico
+  palette:
+    primary: "grey"
+    accent: "blue"
+  font:
+    text: "Open Sans"
+    code: "Ubuntu Mono"
+  icon:
+    logo:  fontawesome/solid/code
+#  feature:
+#    tabs: true
+
+plugins:
+  - search
